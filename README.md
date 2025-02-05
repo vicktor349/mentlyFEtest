@@ -2,11 +2,11 @@
 
 ## Welcome
 
-This challenge is designed to assess your frontend development skills. We're excited to see your approach to building user interfaces with Next.js and Tailwind CSS.
+This challenge is designed to assess your Frontend development skills. We're excited to see your approach to building user interfaces with Next.js and Tailwind CSS.
 
 ## The Challenge
 
-Your task is to build a frontend page based on the designs provided in this [Figma file](https://www.figma.com/design/TJoaUZPIgzakOHleCtJeNb/Mently-Frontend-Test?node-id=0-1&node-type=canvas&t=B30FPyMAYW7jtBcX-0)
+Your task is to build a frontend page based on the designs (Website and Mobile Responsive) provided in this [Figma file](https://www.figma.com/design/TJoaUZPIgzakOHleCtJeNb/Mently-Frontend-Test?node-id=0-1&node-type=canvas&t=B30FPyMAYW7jtBcX-0).
 
 **Key Requirements:**
 * **Use Next.js:**  The application should be built using the Next.js framework.
@@ -19,7 +19,8 @@ Your task is to build a frontend page based on the designs provided in this [Fig
 
 * **Animations/Interactions:** Add subtle animations or interactions to enhance the user experience.
 * **Testing:** Include unit tests for your components.
-* **Deployment:** Send your Pull request to this Repo 
+* **Deployment:** Send your Pull request to this Repo
+* **Mobile Responsive:** Desktop and mobile responsive screens
 
 ## Submission
 
