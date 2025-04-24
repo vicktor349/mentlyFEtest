@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "profileUrl": "/images/avatar/maxwell.svg",
+        "name": "Maxwell Smith",
+        "mail": "maxwellsmith@gmail.com",
+        "jobdescription": "Product Designer"
+    },
+    {
+        "id": 2,
+        "profileUrl": "/images/avatar/samuel.svg",
+        "name": "Adeati Samuel",
+        "mail": "maxwellsmith@gmail.com",
+        "jobdescription": "Product Designer"
+    }
+]

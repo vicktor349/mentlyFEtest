@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "backgroundImageUrl": "/images/programs/colorhack.png",
+        "title": "Weekly Meeting - Product Demo Review with Testers",
+        "category": "Ongoing",
+        "text": "Weekly Meeting - Product Demo Review with Testers",
+        "date": "Mon. Jul 30, 2024",
+        "time": "9:00 - 11:00AM",
+        "studygroup": "UX Strategy  Study group"
+    },
+    {
+        "id": 2,
+        "backgroundImageUrl": "/images/programs/colorhack.png",
+        "title": "Weekly Meeting - Product Demo Review with Testers",
+        "category": "Upcoming",
+        "text": "Weekly Meeting - Product Demo Review with Testers",
+        "date": "Mon. Jul 30, 2024",
+        "time": "9:00 - 11:00AM",
+        "studygroup": "UX Strategy  Study group"
+    }
+]

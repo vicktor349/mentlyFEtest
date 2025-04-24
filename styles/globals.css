@@ -1,8 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #ECEEF2;
+  --backgroundProgram: #FFF;
   --foreground: #171717;
+
+  /* Default (light) values */
+  --color-sideNavBackground: #340260;
+  --color-navbarBackground: #FDFDFD;
+  --color-navbarText: #404040;
+  --color-navbarProfileText: #53547B;
+  --color-messagebackgroundColor: #6F01D0;
+  --color-messageUpdateButtonColor: #FFF;
+  --color-CardBackground: #FFF;
 }
 
 @theme inline {
@@ -10,17 +20,68 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-sideNavBackground: var(--color-sideNavBackground);
+  --color-navbarBackground: var(--color-navbarBackground);
+  --color-navbarText: var(--color-navbarText);
+  --color-navbarProfileText: var(--color-navbarProfileText);
+  --color-messagebackgroundColor: var(--color-messagebackgroundColor);
+  --color-messageUpdateButtonColor: var(--color-messageUpdateButtonColor);
+  --color-CardBackground: var(--color-CardBackground);
+  --color-backgroundProgram: var(--backgroundProgram);
+  --breakpoint-3xl: 1736px;
+  --breakpoint-1374: 1374px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* DARK MODE OVERRIDES */
+.dark {
+  --background: #140B1E;
+  --foreground: #ededed;
+
+  /* dark mode for navbar */
+  --color-navbarBackground: #1F0A33;
+
+  /* dark mode for sidenavbar */
+  --color-sideNavBackground: #1F0A33;
+  
+  /* Navbar Text */
+  --color-navbarText: #FFF;
+  --color-navbarProfileText: #FFF;
+
+  /* Message Background */
+  --color-messagebackgroundColor: #1F0A33;
+
+  /* Update Button Message Background */
+  --color-messageUpdateButtonColor: #340260;
+
+  /* Card Background in Dark Mode */ 
+  --color-CardBackground: #140B1E;
+
+  --color-backgroundProgram: #1F0A33;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+/* LOADER ANIMATION */
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  clip-path: inset(0 3ch 0 0);
+  animation: l4 1s steps(4) infinite;
+}
+
+.loader:before {
+  content: "Loading..."
+}
+
+@keyframes l4 {
+  to {
+    clip-path: inset(0 -1ch 0 0)
+  }
 }

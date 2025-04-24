@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "profileImage": "/images/avatar/kyc.png",
+        "title": "KYC Verification",
+        "message": "45 new persons just signed up on Mently.",
+        "time": "25 minutes Ago"
+    },
+    {
+        "id": 2,
+        "profileImage": "/images/avatar/newuser.png",
+        "title": "New User Sign Up!",
+        "message": "45 new persons just signed up on Mently.",
+        "time": "25 minutes Ago"
+    },
+    {
+        "id": 3,
+        "profileImage": "/images/avatar/samuel.svg",
+        "title": "Withdrawal Request",
+        "message": "Mardian requested a withdrawal.",
+        "time": "25 minutes Ago"
+    }
+]
